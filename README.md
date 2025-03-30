@@ -16,6 +16,14 @@ This template equips you with a foundational Next.js application integrated with
 
 For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/#deploy-a-fullstack-app-to-aws) of our documentation.
 
+## TODOs
+
+- Removed Amplify backend dependencies from backend.ts and stubbed out implementation that used graphQL. Downloaded from AWS Amplify Console an updated amplify_outputs.json for local testing that is now empty.
+- Refactor app from React to Next.js
+- Update from SPA to use AppRouter
+- Add Auth0 support
+- Connect to my separate low cost backend Todo API
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
